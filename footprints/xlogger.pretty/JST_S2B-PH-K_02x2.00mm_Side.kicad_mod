@@ -1,0 +1,245 @@
+(footprint "JST_S2B-PH-K_02x2.00mm_Side"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST PH series connector, S4B-PH-K, side entry type, through hole")
+	(tags "connector jst ph")
+	(property "Reference" "REF**"
+		(at -0.8 -2.19 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b39449a0-cbd8-4984-a2d3-464bb27188a3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Batt_conn"
+		(at 1.09 7.34 180)
+		(layer "F.Fab")
+		(uuid "3fa73986-215d-4109-abcf-0a024a23b839")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "xlogger:JST_S2B-PH-K_02x2.00mm_Side"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d12c66a4-ae82-4125-a3b7-66a0789b9717")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7079455b-b297-47d4-9ea1-4e8496e5002e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adfc101c-5d19-409a-b31c-614bfb3e16f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -1.85)
+		(end -2.45 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7af5f610-c0e3-4781-91f9-27c012116ad3")
+	)
+	(fp_line
+		(start -2.45 6.75)
+		(end 4.45 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c349f2d5-6991-4b6a-942b-f6f8ad8bd54f")
+	)
+	(fp_line
+		(start 4.45 -1.85)
+		(end -2.45 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48e17d70-c125-4c2e-a548-cc78bed89f76")
+	)
+	(fp_line
+		(start 4.45 6.75)
+		(end 4.45 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c66c033f-4453-4a31-a0b1-f7c5f1f51a70")
+	)
+	(fp_line
+		(start -1.95 -1.35)
+		(end -1.95 6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f5677bd-c10d-415b-a9a8-19bc845d1e87")
+	)
+	(fp_line
+		(start -1.95 6.25)
+		(end 3.95 6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "677ad8d8-8a9a-457d-9c49-c89d0432b4de")
+	)
+	(fp_line
+		(start -1.25 -1.35)
+		(end -1.95 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd272acb-8e19-460f-89a0-941e1bc92db5")
+	)
+	(fp_line
+		(start -1.25 0.25)
+		(end -1.25 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af13a77e-c88e-4662-b365-92b187b4f35c")
+	)
+	(fp_line
+		(start -0.5 1.35)
+		(end 0.5 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b41ee2af-b64b-4b67-842b-0bebcbb2faea")
+	)
+	(fp_line
+		(start 0 0.85)
+		(end -0.5 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "102fff74-f6c3-406e-83bf-a617eb336a75")
+	)
+	(fp_line
+		(start 0.5 1.35)
+		(end 0 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97767875-7115-4d4e-bf43-7116ccfaf466")
+	)
+	(fp_line
+		(start 3.25 -1.35)
+		(end 3.25 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49dc4cd4-abf3-4f92-9d50-a3552d6a850c")
+	)
+	(fp_line
+		(start 3.25 0.25)
+		(end -1.25 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99904684-4225-4dea-a0e7-0fc59a20fc52")
+	)
+	(fp_line
+		(start 3.95 -1.35)
+		(end 3.25 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7e6de56-20fe-433d-9e49-8238a8c7bc26")
+	)
+	(fp_line
+		(start 3.95 6.25)
+		(end 3.95 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1122dc1-e480-494c-b581-7ff53ee837df")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.7)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fabacca-92bf-48b5-9bd6-e3f536ab1715")
+	)
+	(pad "2" thru_hole oval
+		(at 2 0)
+		(size 1.2 1.7)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "747c1b1a-1966-41e7-a7d4-847b68b42bb8")
+	)
+	(model "/cs/github/tjcrone/kicad/packages/xlogger/S2B-PH-K-S.stp"
+		(offset
+			(xyz 1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
+)

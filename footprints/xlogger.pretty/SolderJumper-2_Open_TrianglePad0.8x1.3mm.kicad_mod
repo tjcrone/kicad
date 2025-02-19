@@ -1,0 +1,146 @@
+(footprint "SolderJumper-2_Open_TrianglePad0.8x1.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "JP2"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "02366a0c-63dd-459a-9e91-b2dac34f66ef")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SolderJumper_2_Open"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "29dba154-7a30-4e70-b7b4-c07abc852fa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "unified_hydrophone_library:SolderJumper-2_Open_TrianglePad0.8x1.3mm"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f83a5e45-136a-4eb0-92cf-6c1da9d99d44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "cffb5157-3fec-47c9-975f-3ebe2876bdd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "27cfb5cc-5c8d-45ad-89d5-fd7b5b8edb5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_rect
+		(start -0.919802 -0.51)
+		(end 0.92 0.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ed27d443-3535-4538-94fb-e31df9d0ecf6")
+	)
+	(fp_text user "NetB"
+		(at 2 0 0)
+		(layer "F.SilkS")
+		(uuid "ee1ad7d1-bc63-4834-88cf-8ae287bd5b2b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "NetA"
+		(at -2 0 0)
+		(layer "F.SilkS")
+		(uuid "fb1e7f81-eaec-4590-aef7-c1aa9d687ece")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.4 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.45 0) (xy 0.2 0.4) (xy -0.4 0.4) (xy -0.4 -0.4) (xy 0.2 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "574596e0-82cb-42aa-b050-1a5152f160b5")
+	)
+	(pad "2" smd custom
+		(at 0.4 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.4 0.4) (xy -0.3 0.4) (xy -0.05 0) (xy -0.3 -0.4) (xy 0.4 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5cddda37-e691-417f-953f-d60dce06666c")
+	)
+)

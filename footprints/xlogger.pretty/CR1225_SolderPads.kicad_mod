@@ -1,0 +1,189 @@
+(footprint "CR1225_SolderPads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "97a3625f-4db8-416c-b153-1e9e87d6a48c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CR1225_SolderPads"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "adb2c877-b941-4376-bf89-1c37684ac5f5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aecc202-f09a-4d07-b9c0-14d7fe198afd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e88e506-a624-4b20-aee5-3772f57a127e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e91a460f-cd65-47ca-9d5b-4fca88eab26c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 6.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4fd92fdf-4064-4823-8d31-e0128b0f22ef")
+	)
+	(fp_line
+		(start -2 -11.6)
+		(end 2 -11.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc815b20-f3a5-432c-a2a7-07cf57773127")
+	)
+	(fp_line
+		(start -2 -6.6)
+		(end -2 -11.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed37b44-116c-4722-97d6-ea8eae52167a")
+	)
+	(fp_line
+		(start -2 11.6)
+		(end -2 6.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3576e39a-72d8-4947-be41-705abdc69e3c")
+	)
+	(fp_line
+		(start 2 -11.6)
+		(end 2 -6.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "03dd4a1a-4b26-417f-bc2a-8159e40bc1ca")
+	)
+	(fp_line
+		(start 2 6.6)
+		(end 2 11.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d358cea8-a3c2-485d-88cc-3329cee8ed00")
+	)
+	(fp_line
+		(start 2 11.6)
+		(end -2 11.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9fbf9d91-7fe8-4e05-b459-468c67e528c6")
+	)
+	(fp_arc
+		(start -2 6.599999)
+		(mid -6.896375 0)
+		(end -2 -6.599999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed8890b-48cb-4060-b468-548bb60f47c9")
+	)
+	(fp_arc
+		(start 2 -6.599998)
+		(mid 6.896375 0.000001)
+		(end 2 6.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ed620c0-def9-4fbd-881c-b7dba23d516d")
+	)
+	(pad "1" smd rect
+		(at 0 -9.5)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "95825133-6299-4053-b75b-c01b89360357")
+	)
+	(pad "2" smd rect
+		(at 0 9.5)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "676812a1-1461-49c9-9735-3efa311f5347")
+	)
+	(model "/cs/github/tjcrone/kicad/packages/xlogger/CR1225_v0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

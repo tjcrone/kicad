@@ -1,0 +1,251 @@
+(footprint "OSC_SIT8021AI-J4-XXS-12.000000E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 180)
+		(layer "F.SilkS")
+		(uuid "80bfb00d-849f-46ec-accf-0e8667779eef")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SIT8021A"
+		(at 0 2.11 180)
+		(layer "F.Fab")
+		(uuid "5162ab84-57f9-4983-b706-50931d765806")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "270984c0-45c3-41cb-b060-5b5b2b412894")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0815dfe-5dcf-4cea-ba8b-18cec4770ab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8472f82-d1a6-47a4-9c4d-bed5fe82fe1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SiTIME"
+		(at 8.28 83.4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8318f14e-df62-475d-aebe-551661970c9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.31 -1.11)
+		(end -0.21 -1.11)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "66a53a3c-bdf2-43f1-a625-30d0ee9c759a")
+	)
+	(fp_circle
+		(center -0.205 -0.5)
+		(end -0.03 -0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "ca9f97d4-7f35-4c42-8dff-d78e40b3b82f")
+	)
+	(fp_circle
+		(center -0.205 0.5)
+		(end -0.03 0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "2ca25d0b-32a1-4021-9a68-bf93bbb865d3")
+	)
+	(fp_circle
+		(center 0.205 -0.5)
+		(end 0.38 -0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "8bacca53-5d6d-4fbf-96fc-7df98d67f28a")
+	)
+	(fp_circle
+		(center 0.205 0.5)
+		(end 0.38 0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "f9557f4d-8319-4783-9f7e-d095dc849c39")
+	)
+	(fp_line
+		(start -0.67 -1.02)
+		(end 0.67 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ddc1c86-9afa-4dbe-8df2-6386f6e39c0e")
+	)
+	(fp_line
+		(start -0.67 1.02)
+		(end -0.67 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b7d45ac-ddcb-420f-ac83-72e3c5e8230a")
+	)
+	(fp_line
+		(start 0.67 -1.02)
+		(end 0.67 1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f92b9bbc-c5fc-419b-9f3f-988f1109fd71")
+	)
+	(fp_line
+		(start 0.67 1.02)
+		(end -0.67 1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "909dcfe8-828f-4368-9115-4374187f5b2f")
+	)
+	(fp_line
+		(start -0.42 -0.77)
+		(end 0.42 -0.77)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "908a14be-7363-40c4-8680-08cba6cc229b")
+	)
+	(fp_line
+		(start -0.42 0.77)
+		(end -0.42 -0.77)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c26f8a8-b496-4b35-beb5-128765f7b1b6")
+	)
+	(fp_line
+		(start 0.42 -0.77)
+		(end 0.42 0.77)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "326274ac-1a50-476a-882a-9f62b512387f")
+	)
+	(fp_line
+		(start 0.42 0.77)
+		(end -0.42 0.77)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b066709-cd39-4384-8e93-6f204b871c7c")
+	)
+	(pad "1" smd circle
+		(at -0.205 -0.5 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "e064b32c-fd61-49b8-8e32-f1944806e6d0")
+	)
+	(pad "2" smd circle
+		(at -0.205 0.5 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(clearance 0.16)
+		(uuid "dacd41a7-e266-495c-8934-5062810bacc3")
+	)
+	(pad "3" smd circle
+		(at 0.205 0.5 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(clearance 0.16)
+		(uuid "7ec579f3-d86e-4e54-b27f-d4dd728002d9")
+	)
+	(pad "4" smd circle
+		(at 0.205 -0.5 270)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(clearance 0.16)
+		(zone_connect 0)
+		(uuid "7c189416-3fdb-41d6-956b-9c22e26a1db3")
+	)
+	(model "/cs/github/tjcrone/kicad/packages/xlogger/SIT8021AI-J4-XXS-12.000000E.stp"
+		(offset
+			(xyz 0 0 -0.08)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,225 @@
+(footprint "MOLEX_1051620001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>105162-0001</b><br>")
+	(property "Reference" "J7"
+		(at 9.66 7.88 0)
+		(layer "F.SilkS")
+		(uuid "75f3716b-1a90-4544-95ab-9159c01d92d8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "Micro_SD_Card_1051620001"
+		(at 4.099 3.941 0)
+		(layer "F.Fab")
+		(uuid "62f4a8eb-cdf1-4e22-8a9f-684ebd531cc5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "EnduroLogger:105162-0001"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf23ff56-07fa-4d34-9738-2bed38a438fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82df63d1-935c-40d5-8de8-6a9cb92fbeef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a133c1f0-50fe-4d7c-94ee-535095060a89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 9.09 7.2)
+		(end -1.99 -7.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3a7a90f6-a92f-4d34-9293-fd1ba407c499")
+	)
+	(fp_line
+		(start -2.1 0.89)
+		(end 9.2 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7610033f-43ab-4fca-9ced-fcc06c8e7012")
+	)
+	(fp_line
+		(start -2.1 7.34)
+		(end -2.1 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80bcb10f-042f-4256-8e6b-9f15278ff45e")
+	)
+	(fp_line
+		(start 9.2 0.89)
+		(end 9.2 7.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e0af2ee-abb6-4846-89de-799fd58f9e0a")
+	)
+	(fp_line
+		(start 9.2 7.34)
+		(end -2.1 7.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c7dd031-a58b-45d5-8605-59feb684c67d")
+	)
+	(pad "1" smd rect
+		(at 0 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b88fa503-f32d-4a7c-b457-eaa4607df438")
+	)
+	(pad "2" smd rect
+		(at 1.1 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7e517e6-7706-4e09-ba0d-ba40108d4996")
+	)
+	(pad "3" smd rect
+		(at 2.2 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "367512e2-42f1-4b59-948d-1a51fa4e44be")
+	)
+	(pad "4" smd rect
+		(at 3.3 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fca2ae86-0637-4638-b352-4048dc4d31d5")
+	)
+	(pad "5" smd rect
+		(at 4.4 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "504dd40b-07e3-4d71-9dab-a14b325e3a43")
+	)
+	(pad "6" smd rect
+		(at 5.5 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "113e5f27-fe52-4c71-a03f-e2ad23203343")
+	)
+	(pad "7" smd rect
+		(at 6.6 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "576ca9c7-a682-40ed-ad33-8811414fbc0d")
+	)
+	(pad "8" smd rect
+		(at 7.7 0 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f39d8378-78bb-4dec-a599-95fbee775792")
+	)
+	(pad "9" smd rect
+		(at -2.2 2.68 270)
+		(size 0.9 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1575ffc-ac1f-4189-8931-466c66218853")
+	)
+	(pad "10" smd rect
+		(at -2.2 3.95 270)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c9f0634-16bd-464b-ae4c-b84b98bc3a2f")
+	)
+	(pad "11" smd rect
+		(at -2.2 6.56 270)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c484d640-4479-4e39-838f-a8968d214ce9")
+	)
+	(pad "12" smd rect
+		(at 9.2 6 270)
+		(size 1.2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af8020de-ce36-40a0-ac2d-e8caf1c49c02")
+	)
+	(pad "13" smd rect
+		(at 9.2 2.8 270)
+		(size 2.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f09b875-2d09-4961-ba59-12d072bc6375")
+	)
+	(pad "14" smd roundrect
+		(at 1.564 7.45 180)
+		(size 2.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right)
+		(uuid "ca3af754-5785-4150-91cf-21600d4132d3")
+	)
+	(pad "15" smd roundrect
+		(at 5.754 7.45 180)
+		(size 2.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right)
+		(uuid "f1594403-5888-49b2-b824-42989d27cc43")
+	)
+	(model "/cs/github/tjcrone/kicad/packages/xlogger/105162-0001.stp"
+		(offset
+			(xyz 3.55 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

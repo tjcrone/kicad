@@ -1,0 +1,234 @@
+(footprint "MOLEX_5040500291"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "dc90c426-5751-4b1e-ba85-510f26307efe")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "MOLEX_5040500291"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b32e713-b168-4d07-b14f-c1839197e5db")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.75 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5a3d71e-6e21-4cbe-8246-88a9d990c4e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.75 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81813dc2-95c0-4c48-a741-9cca5b3b94c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.75 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35bf390e-b793-471c-8e8a-6a075a454985")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -3.46 -3)
+		(end -3.46 0.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd925388-87a2-4891-8dd0-76d40f09de29")
+	)
+	(fp_line
+		(start -2 0.11)
+		(end -3.46 0.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abcac50a-64a2-40b9-8907-7222defff971")
+	)
+	(fp_line
+		(start 3.46 -3)
+		(end 3.46 0.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1491181-e8da-4e80-ab94-3ba30d069825")
+	)
+	(fp_line
+		(start 3.46 0.11)
+		(end 2 0.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4987ab1d-3d93-47fd-980b-432c809a1b8b")
+	)
+	(fp_line
+		(start -3.35 -6.1)
+		(end -3.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6bcf9354-78a0-4489-8699-63773e88976a")
+	)
+	(fp_line
+		(start -3.35 0)
+		(end 3.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c5ef615f-34f6-4631-b398-58e3b0dd1184")
+	)
+	(fp_line
+		(start -1.65 -6.1)
+		(end -3.35 -6.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "853633cb-7606-4373-b8e5-d8e1ffd3f2ef")
+	)
+	(fp_line
+		(start -1.65 -6.1)
+		(end -1.65 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4dfedb8d-1264-40d9-aee6-1e4a5812891c")
+	)
+	(fp_line
+		(start -1.65 -4.1)
+		(end 1.65 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1e8dae40-fdaa-41ed-9624-82e3fc9d57ab")
+	)
+	(fp_line
+		(start 1.65 -6.1)
+		(end 1.65 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae212a23-72a1-47c8-bacc-f28e26324e36")
+	)
+	(fp_line
+		(start 3.35 -6.1)
+		(end 1.65 -6.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "394c415e-36bc-43de-a453-3825b89a8dae")
+	)
+	(fp_line
+		(start 3.35 -6.1)
+		(end 3.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "30a2b50d-4a5a-4783-ae63-e2d55a0a5456")
+	)
+	(fp_rect
+		(start -4.6 -6.5)
+		(end 4.6 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "660c6f6f-230d-4ddc-97cb-6df03f2e6d39")
+	)
+	(pad "" smd rect
+		(at -3.6 -5.2)
+		(size 1.75 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07db49c0-1257-488e-8cdc-a8ad1e7a4cb1")
+	)
+	(pad "" smd rect
+		(at 3.6 -5.2)
+		(size 1.75 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2e147f59-ad36-40e8-b2bf-1ab375e031db")
+	)
+	(pad "1" smd rect
+		(at 0.75 0.25)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fef46c9b-e37a-48e7-95b3-e751b86fec62")
+	)
+	(pad "2" smd rect
+		(at -0.75 0.25)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d16e4f4-1bf5-4468-a9c7-abcd4a294b65")
+	)
+	(model "/cs/github/tjcrone/kicad/packages/xlogger/5040500291.stp"
+		(offset
+			(xyz -0.745 8.12 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

@@ -1,0 +1,143 @@
+(footprint "XL_B_035mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "XL1"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "618cb2de-5be1-4361-813d-0ac407724991")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL_B_035mm"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7c6df25d-dc46-45f9-9f94-9cb39bf8d189")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74e4d0c3-e2ff-46c9-a66b-545531b1b155")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8301da58-9730-4f31-bd1f-52b5a2951581")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XLogger back logo 3.5mm"
+		(at -66.97 77.335 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af6b4ddd-b26a-497d-ad32-595fbeb372e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -4.25 0) (xy -2.56 0) (xy -2.56 -0.76) (xy -3.78 -0.76)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "78e5c838-75b3-43f5-a4ee-56925690f67d")
+	)
+	(fp_poly
+		(pts
+			(xy -3.1 0) (xy -2.1 0) (xy 0 -3.5) (xy -1 -3.5)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "37133df6-d3f6-41c9-96e2-3ce52aa673be")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy -1 0) (xy -3.1 -3.5) (xy -2.1 -3.5)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "8eec5988-ce7b-4a2c-a369-94a0a2d906ab")
+	)
+	(fp_line
+		(start -4.26 -3.5)
+		(end 0.01 -3.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc69acee-d0b4-4ecb-afdb-141d0bbedb21")
+	)
+	(fp_line
+		(start -4.26 0.01)
+		(end -4.26 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "625d8839-9818-472f-a2d0-abd22d39626c")
+	)
+	(fp_line
+		(start -4.26 0.01)
+		(end 0.01 0.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3888f966-427f-4902-8015-6812bff200d7")
+	)
+	(fp_line
+		(start 0.01 0.01)
+		(end 0.01 -3.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e56e8a59-7500-459a-858a-167cbfeaf5a1")
+	)
+)
